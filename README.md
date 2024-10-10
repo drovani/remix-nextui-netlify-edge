@@ -21,6 +21,8 @@
 1. Run `npm build && netlify serve` to validate that solution still executes as expected.
 1. Add any NextUI component to the `./app/routes/_index.tsx` component
     1. Example: replace the first `<a>`nchor tag with a `<Link>` component
+    1. -or- add a `<Button>Clickable</Button>` component
+    1. -or- add a `<Snippet>snippet</Snippet>` component
 1. Run `npm build && netlify serve` and observe the following error:
 ```
   ◈ Loaded edge function remix-server

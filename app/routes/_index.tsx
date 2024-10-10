@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
+import { Link } from "@nextui-org/react";
 
 export const meta: MetaFunction = () => {
   return [
@@ -13,13 +14,13 @@ export default function Index() {
       <h1 className="text-4xl">Welcome to Remix</h1>
       <ul>
         <li>
-          <a
+          <Link
             target="_blank"
             href="https://remix.run/tutorials/blog"
             rel="noreferrer"
           >
             15m Quickstart Blog Tutorial
-          </a>
+          </Link>
         </li>
         <li>
           <a
